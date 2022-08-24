@@ -1,0 +1,36 @@
+.row{
+    padding: 25px;
+}
+div{
+    background-color: rgb(103, 238, 248);
+    text-align: center;
+}
+/* Nombre */
+.nombre{
+    font-weight: bold;
+    margin-top: 20%;
+    font-size: 30px;
+   
+}
+/* photos */
+@media (min-width: 576px){
+    #photo{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 2%;
+        top: 450px;
+    }
+}
+
+@media (max-width: 575px){
+    #photo{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 35%;
+        top: 500px;
+    }
+}

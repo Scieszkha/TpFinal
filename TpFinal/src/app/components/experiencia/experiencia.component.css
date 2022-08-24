@@ -1,0 +1,16 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: rgb(103, 238, 248);
+}
+
+h5, h6{
+    display: inline;
+}
+
+#margen{
+    margin-left: 2%;
+    margin-top: 20px;
+}
